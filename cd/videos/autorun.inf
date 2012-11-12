@@ -1,0 +1,5 @@
+[autorun]
+open=winopen "$EXEDIR$\index.html"
+label=Andrea Matarazzo
+action=Abrir CD Andrea Matarazzo
+icon=a2.ico
