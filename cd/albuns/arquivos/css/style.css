@@ -1,0 +1,187 @@
+body {
+	font-size: 14px;
+}
+
+.header {
+	background: transparent url(../img/header.jpg) no-repeat top center;
+	height: 191px;
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.container {
+	width: 90%;
+	padding: 15px 5%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.album {
+	float: left;
+    max-width: 220px;
+    width: 220px;
+    margin: 0 15px 35px 15px;
+}
+
+.album a {
+	display: block;
+    overflow: hidden;
+    padding: 2.27273%;
+    position: relative;
+    width: 95.4545%;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    text-decoration: none;
+
+	-webkit-transition: all ease 1s;
+	-moz-transition: all ease 1s;
+	-o-transition: all ease 1s;
+	-ms-transition: all ease 1s;
+	transition: all ease 1s;
+}
+
+.album.pronto a {
+	background-color: red;
+}
+
+.ie7 .album a,
+.ie8 .album a {
+	border: solid 1px #CCCCCC;
+}
+
+.album a:hover {
+	background-color: #005a96;
+}
+
+.album a img {
+	display: block;
+	max-width: 100%;
+	position: relative;
+}
+
+.titulo-album {
+	position: absolute;
+	display: block;
+	z-index: 7;
+	bottom: 2.38095%;
+	padding: 10px 0;
+	width: 95.4545%;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+	color: #FFFFFF;
+	font-size: 1.2em;
+	left: 2.38095%;
+	text-align: center;
+	font-weight: bold;
+
+	-webkit-transition: background 0.3s ease-out 0s;
+	-moz-transition: background 0.3s ease-out 0s;
+	-o-transition: background 0.3s ease-out 0s;
+	-ms-transition: background 0.3s ease-out 0s;
+	transition: background 0.3s ease-out 0s;
+}
+
+.album:hover .titulo-album {
+	background: rgba(0,0,0,.65);
+}
+
+.ie7 .titulo-album,
+.ie8 .titulo-album {
+	background: transparent url(../img/bg-ie.png) repeat;
+	text-decoration: none;
+}
+
+.mais-album {
+	position: absolute;
+	display: block;
+	background: none repeat scroll 0 0 #FFFFFF;
+	color: #FFFFFF;
+	font-size: 2.2em;
+	font-weight: 100;
+	line-height: 1em;
+	padding: 0.3em;
+	position: absolute;
+	right: -2em;
+	text-align: center;
+	top: -2em;
+	width: 1em;
+	z-index: 7;
+
+	-webkit-transition: all 0.3s ease-out 0.1s;
+	-moz-transition: all 0.3s ease-out 0.1s;
+	-o-transition: all 0.3s ease-out 0.1s;
+	-ms-transition: all 0.3s ease-out 0.1s;
+	transition: all 0.3s ease-out 0.1s;
+}
+
+.album:hover .mais-album {
+	background: #005a96;
+	top: 0;
+	right: 0;
+}
+
+/* ALBUNS */
+
+#demo-block { 
+	margin: 15px 15px 0 0;
+	float: right;
+}
+
+#demo-block li {
+	margin:0 0 10px 0;
+	padding:10px;
+	display:inline;
+	float:left;
+	clear:both;
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+
+#demo-block li:hover {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ie7 #demo-block li,
+.ie8 #demo-block li {
+	background: transparent url(../img/bg-ie-album.png) repeat;
+	display: block;
+}
+
+#demo-block li a { 
+	color:#eee; 
+	font-weight:bold;
+}
+
+#back {
+	padding: 8px 15px;
+	font-weight: bold;
+	font: 500 12px/18px "Helvetica Neue",Helvetica,Arial,sans-serif; 
+	font-style: italic;
+	color: #fff;
+	text-decoration: none;
+	float: left;
+	margin: 15px 0 0 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	text-shadow: 1px 1px 1px #000000;
+       
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+
+#back:hover {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ie7 #back,
+.ie8 #back {
+	background: transparent url(../img/bg-ie-album.png) repeat;
+}

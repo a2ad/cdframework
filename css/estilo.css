@@ -1,0 +1,80 @@
+/* ##Botões */
+.btn {
+	display: inline-block;
+	*display: inline;
+	padding: 4px 14px;
+	margin-bottom: 0;
+	/**margin-left: .3em;*/
+	font-size: 14px;
+	line-height: 20px;
+	*line-height: 18px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	background: #fefefe;
+	background: -moz-linear-gradient(top,  #fefefe 0%, #e6e6e6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#e6e6e6));
+	background: -webkit-linear-gradient(top,  #fefefe 0%,#e6e6e6 100%);
+	background: -o-linear-gradient(top,  #fefefe 0%,#e6e6e6 100%);
+	background: -ms-linear-gradient(top,  #fefefe 0%,#e6e6e6 100%);
+	background: linear-gradient(to bottom,  #fefefe 0%,#e6e6e6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e6e6e6',GradientType=0 );
+	border: 1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	*zoom: 1;
+	width: 200px;
+}
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+	border:1px solid #aaa;
+	text-decoration:none;	
+	-webkit-box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.2);
+
+	background: #fefefe;
+	background: -moz-linear-gradient(top, #fefefe 0%, #fefefe 5%, #e6e6e6 20%, #e6e6e6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(5%,#fefefe), color-stop(20%,#e6e6e6), color-stop(100%,#e6e6e6));
+	background: -webkit-linear-gradient(top, #fefefe 0%,#fefefe 5%,#e6e6e6 20%,#e6e6e6 100%);
+	background: -o-linear-gradient(top, #fefefe 0%,#fefefe 5%,#e6e6e6 20%,#e6e6e6 100%);
+	background: -ms-linear-gradient(top, #fefefe 0%,#fefefe 5%,#e6e6e6 20%,#e6e6e6 100%);
+	background: linear-gradient(top, #fefefe 0%,#fefefe 5%,#e6e6e6 20%,#e6e6e6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#fefefe',GradientType=0 );
+}
+.btn-large {
+	padding: 9px 14px;
+	font-size: 16px;
+	line-height: normal;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+a.btn{ text-decoration: none; }
+
+/* ##Header */
+header{
+	display: block;
+	padding:20px 0;
+	background: #eee;
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+header h1{
+	font-size: 42px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+/* ##Container */
+.container{
+	text-align: center;
+}
+p{ margin: 0 0 20px 0; }
