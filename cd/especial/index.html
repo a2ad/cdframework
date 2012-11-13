@@ -1,0 +1,38 @@
+<!doctype html>
+<!-- saved from url=(0014)about:internet -->
+<!--[if lt IE 7]> <html class="no-js lt-ie7" lang="pt-br"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="pt-br"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="pt-br"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="pt-br"> <![endif]-->
+<head>
+	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width">
+	<!-- Estilos -->
+	<link rel="stylesheet" href="arquivos/css/normalize.min.css">
+	<link rel="stylesheet" href="arquivos/css/style.css">
+	<link rel="stylesheet" href="arquivos/css/fontface/stylesheet.css">
+	<title>Campanha de Proteção ao Pedestre</title>
+</head>	
+<body>
+
+<script src="arquivos/js/libs/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		var isChrome = (navigator.userAgent.match(/Chrome/i) != null);
+			if ( isChrome ) {
+				//alert('é o chrome');
+				setTimeout(function(){
+		      		window.location.href="arquivos/index3.html";
+				},2000);				
+			} else {
+				//alert('é outro');
+				setTimeout(function(){
+		      		window.location.href="arquivos/index2.html";
+				},2000);				
+			}
+	});
+
+</script>
+<div class="loading-page"><span>Carregando Conteúdo</span></div>
+</body>
+</html>
