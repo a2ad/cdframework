@@ -2,7 +2,7 @@ jQuery(function($){
 
 	$.supersized({
 
-		slides 					:  	[			// Imagens do slideshow
+		slides:[			// Imagens do slideshow
 
 		{
 			image : '../../fotos/nome-do-album1/nome-da-imagem1.jpg',
