@@ -12,19 +12,19 @@
 	</header>
 	<div class="container">
 		<p>
-			<a href="cd/fotos/" class="btn btn-large">CD/DVD de Fotos</a>
+			<a href="cd/fotos.rar" class="btn btn-large">CD/DVD de Fotos</a>
 			<a href="cd/fotos/" class="btn btn-large btn-laranja">Demo</a>
 		</p>
 		<p>
-			<a href="cd/albuns/" class="btn btn-large">CD/DVD de Álbuns</a>
+			<a href="cd/albuns.rar" class="btn btn-large">CD/DVD de Álbuns</a>
 			<a href="cd/albuns/" class="btn btn-large btn-laranja">Demo</a>
 		</p>
 		<p>
-			<a href="cd/videos/" class="btn btn-large">CD/DVD de Vídeos</a>
+			<a href="cd/videos.rar" class="btn btn-large">CD/DVD de Vídeos</a>
 			<a href="cd/videos/" class="btn btn-large btn-laranja">Demo</a>
 		</p>
 		<p>
-			<a href="cd/especial/" class="btn btn-large">CD/DVD Especial</a>
+			<a href="cd/especial.rar" class="btn btn-large">CD/DVD Especial</a>
 			<a href="cd/especial/" class="btn btn-large btn-laranja">Demo</a>
 		</p>
 		<p>
@@ -37,7 +37,7 @@
 
  
 	<?php
-
+	/*	
 	$diretorio = 'cd/'; 
 	$ponteiro  = opendir($diretorio);
 	while ($nome_itens = readdir($ponteiro)) {
@@ -82,7 +82,7 @@
 		}
 
     }
-
+    */
 
 	?>
 </body>
