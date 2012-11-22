@@ -1,5 +1,129 @@
 /* GLOBAL
 ========================================================================== */
-body{
-	
+body {
+	font-size: 14px;
 }
+header{
+	background: url(../img/header.jpg) no-repeat scroll center top;
+	width: 100%;
+	height: 190px;
+}
+
+.container {
+	width: 90%;
+	padding: 15px 5%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.thumb-video {
+	float: left;
+    max-width: 220px;
+    width: 220px;
+    margin: 0 15px 35px 15px;
+}
+
+.thumb-video a {
+	display: block;
+    overflow: hidden;
+    padding: 2.27273%;
+    position: relative;
+    width: 95.4545%;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+
+	-webkit-transition: all ease 1s;
+	-moz-transition: all ease 1s;
+	-o-transition: all ease 1s;
+	-ms-transition: all ease 1s;
+	transition: all ease 1s;
+}
+
+.ie7 .thumb-video a,
+.ie8 .thumb-video a {
+	border: solid 1px #CCCCCC;
+}
+
+.thumb-video a:hover {
+	background-color: #005a96;
+}
+
+.thumb-video a img {
+	display: block;
+	max-width: 100%;
+	position: relative;
+	width: 210px;
+}
+
+.titulo-video {
+	position: absolute;
+	display: block;
+	z-index: 7;
+	bottom: 2.38095%;
+	padding: 10px 0;
+	width: 95.4545%;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+	color: #FFFFFF;
+	font-size: 1.2em;
+	left: 2.38095%;
+	text-align: center;
+	font-weight: bold;
+
+	-webkit-transition: background 0.3s ease-out 0s;
+	-moz-transition: background 0.3s ease-out 0s;
+	-o-transition: background 0.3s ease-out 0s;
+	-ms-transition: background 0.3s ease-out 0s;
+	transition: background 0.3s ease-out 0s;
+}
+
+.thumb-video:hover .titulo-video {
+	background: rgba(0,0,0,.65);
+}
+
+.ie7 .titulo-video,
+.ie8 .titulo-video {
+	background: transparent url(../img/bg-ie.png) repeat;
+	text-decoration: none;
+}
+
+.mais-video {
+	position: absolute;
+	display: block;
+	background: none repeat scroll 0 0 #FFFFFF;
+	color: #FFFFFF;
+	font-size: 2.2em;
+	font-weight: 100;
+	line-height: 1em;
+	padding: 0.3em;
+	position: absolute;
+	right: -2em;
+	text-align: center;
+	top: -2em;
+	width: 1em;
+	z-index: 7;
+
+	-webkit-transition: all 0.3s ease-out 0.1s;
+	-moz-transition: all 0.3s ease-out 0.1s;
+	-o-transition: all 0.3s ease-out 0.1s;
+	-ms-transition: all 0.3s ease-out 0.1s;
+	transition: all 0.3s ease-out 0.1s;
+}
+
+.thumb-video:hover .mais-video {
+	background: #005a96;
+	top: 0;
+	right: 0 !important;
+}
+
+.ie7 #html5-lightbox-box{
+	top: 20%;
+}
+.ie7 #html5-image,
+.ie7 #html5-loading{
+	left: 0;
+	z-index: 99999;
+}
+
