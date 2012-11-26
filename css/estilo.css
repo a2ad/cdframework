@@ -27,7 +27,7 @@
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	*zoom: 1;
-	width: 200px;
+	width: 240px;
 }
 .btn:hover,
 .btn:active,
@@ -88,6 +88,10 @@
 	border-radius: 5px;
 }
 a.btn{ text-decoration: none; }
+.btn span{
+	color: #e56822;
+}
+
 
 /* ##Header */
 header{
