@@ -28,7 +28,7 @@
 			<a href="cd/especial/" class="btn btn-large btn-laranja">Demo</a>
 		</p>
 		<p>
-			<a href="cd/capas-bolachas/" class="btn btn-large">Download CD/DVD Capas/Bolachas</a>
+			<a href="cd/templates_capas.zip" class="btn btn-large">Download CD/DVD Capas/Bolachas</a>
 		</p>
 	</div>
 	<footer>
