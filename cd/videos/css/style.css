@@ -21,7 +21,7 @@ header{
 	float: left;
     max-width: 220px;
     width: 220px;
-    margin: 0 15px 35px 15px;
+    /*margin: 0 15px 35px 15px;*/
 }
 
 .thumb-video a {
