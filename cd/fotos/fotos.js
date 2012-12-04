@@ -7,22 +7,22 @@ jQuery(function($){
 		{
 			image : 'fotos/nome-da-imagem.jpg',
 			url: 	'fotos/nome-da-imagem.jpg',
-			title : 'Inserir o TÃ­tulo da Imagem'
+			title : 'Inserir o Título da Imagem'
 		},
 		{
 			image : 'fotos/nome-da-imagem.jpg',
 			url: 	'fotos/nome-da-imagem.jpg',
-			title : 'Inserir o TÃ­tulo da Imagem'
+			title : 'Inserir o Título da Imagem'
 		},
 		{
 			image : 'fotos/nome-da-imagem.jpg',
 			url: 	'fotos/nome-da-imagem.jpg',
-			title : 'Inserir o TÃ­tulo da Imagem'
+			title : 'Inserir o Título da Imagem'
 		},
 		{
 			image : 'fotos/nome-da-imagem.jpg',
 			url: 	'fotos/nome-da-imagem.jpg',
-			title : 'Inserir o TÃ­tulo da Imagem'
+			title : 'Inserir o Título da Imagem'
 		},
 
 		]
