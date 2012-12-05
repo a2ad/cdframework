@@ -1,8 +1,7 @@
-$(function(){
-
+$(window).load(function(){
 
 	//THUMBS
-	var larguraContainer = parseInt($('.container').innerWidth());	
+	var larguraContainer = parseInt($('.container').width());	
 	var larguraThumb = $('.album').innerWidth();
 	var totalThumbs = parseInt(larguraContainer / larguraThumb);
 	var larguraTotalThumbs = larguraThumb * totalThumbs;
@@ -14,6 +13,7 @@ $(function(){
 	//console.log(larguraContainer +' - '+ larguraThumb +' = '+ totalThumbs +' - '+ larguraTotalThumbs +' - '+ sobra  +' - '+ margin +' - '+ marginLeft);
 
 	$('.album').each(function(){
+		$(this).animate({ 'opacity': '1'});
 		$(this).css({
 			'margin-left': marginLeft,
 			'margin-right': marginRight,

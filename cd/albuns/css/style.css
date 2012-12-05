@@ -21,7 +21,7 @@ body {
 	float: left;
     max-width: 220px;
     width: 220px;
-    margin: 0 15px 35px 15px;
+    opacity: 0;
 }
 
 .album a {
