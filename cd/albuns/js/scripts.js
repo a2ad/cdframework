@@ -2,14 +2,14 @@ $(function(){
 
 
 	//THUMBS
-	var larguraContainer = parseInt($('.container').width());	
+	var larguraContainer = parseInt($('.container').innerWidth());	
 	var larguraThumb = $('.album').innerWidth();
 	var totalThumbs = parseInt(larguraContainer / larguraThumb);
 	var larguraTotalThumbs = larguraThumb * totalThumbs;
 	var sobra = larguraContainer - larguraTotalThumbs;
-	var margin = sobra / totalThumbs;
-	var marginLeft = margin / 2 + 'px';
-	var marginRight = margin / 2 + 'px';
+	var margin = parseInt(sobra / totalThumbs);
+	var marginLeft = parseInt(margin / 2) + 'px';
+	var marginRight = parseInt(margin / 2) + 'px';
 
 	//console.log(larguraContainer +' - '+ larguraThumb +' = '+ totalThumbs +' - '+ larguraTotalThumbs +' - '+ sobra  +' - '+ margin +' - '+ marginLeft);
 
